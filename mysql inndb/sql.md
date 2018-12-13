@@ -28,3 +28,7 @@
 		子查询不能作为聚合函数的分组条件
 		distinct关键字会创建内存临时表（或者放于硬盘上），为distinct列创建唯一索引
 
+		order by操作中null总被视为最小
+		
+		关于大数据量分页查询，参考https://blog.csdn.net/u011687186/article/details/70213024
+		
